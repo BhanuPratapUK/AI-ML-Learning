@@ -1,7 +1,4 @@
-import getpass
+import time
 
-password = getpass.getpass("what is your password")
-if password=="Bhanu":
-    print("Welcome Bhanu to the Programming world")
-else:
-    print("Try Again Gorgeous")
+local__time=time.asctime(time.localtime(time.time()))
+print("This is the Local Time of Belfast--->",local__time)
